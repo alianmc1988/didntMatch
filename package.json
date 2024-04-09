@@ -6,7 +6,9 @@
 	"scripts": {
 		"test": "jest --watchAll"
 	},
-	"keywords": [],
+	"keywords": [
+		"jest"
+	],
 	"author": "",
 	"license": "ISC",
 	"dependencies": {

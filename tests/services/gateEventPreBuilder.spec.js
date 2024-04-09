@@ -108,7 +108,7 @@ describe('MatchedGateEvents is an event that the plate within has matched with a
 	})
 
 	describe('When the licensePlateDetails is null', () => {
-		it('should return should return licencePlateDetails as null value', async () => {
+		it('should return licencePlateDetails as null value', async () => {
 			const noMatchedLicencePlateDetails = new NullLincesePlateDetails()
 
 			const { populatedFields } = createGateEventPayload(

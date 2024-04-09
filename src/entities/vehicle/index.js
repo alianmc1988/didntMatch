@@ -24,10 +24,6 @@ class BaseVehicle {
 	getCondo() {
 		return this.condo
 	}
-
-	getPhotoHash() {
-		return this.vehiclePhotoHash
-	}
 }
 
 class Vehicle extends BaseVehicle {
